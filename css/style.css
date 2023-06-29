@@ -1,0 +1,169 @@
+
+#svg-map path {
+    fill:#425d33;
+}
+
+#svg-map text {
+    fill: #fff;; 
+    font:12px Arial-BoldMT, sans-serif; 
+    cursor:pointer ;
+}
+
+#svg-map a{
+    text-decoration:none;
+}
+
+#svg-map a:hover {
+    cursor:pointer; 
+    text-decoration:none ;
+}
+
+#svg-map a:hover path{
+    fill:#eff716 !important;
+
+}
+
+#svg-map .circle {
+    fill:#393b3a 
+}
+
+#svg-map a:hover .circle {
+    fill:#a6ab71 !important;
+    cursor:pointer; 
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    color: #0f160e;
+}
+
+.regioes {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #0f160e;
+    font-size: large;
+    margin: 0vh 15vh 0vh 15vh;
+}
+
+.norte {
+    text-align: center;
+}
+
+.norte img {
+    padding-bottom: 6vh;
+    width: 80vh;
+}
+
+.nordeste  img {
+    padding-bottom: 6vh;
+    width: 80vh;
+}
+
+.centro-oeste img {
+    padding-bottom: 6vh;
+    width: 70vh;
+}
+
+.sudeste img {
+    padding-bottom: 6vh;
+    width: 80vh;
+}
+
+.sul img {
+    padding-bottom: 6vh;
+    width: 70vh;
+
+}
+
+.h1style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    font-size: medium;
+}
+
+a{
+    color:#425d33;
+    text-decoration: none;
+}
+
+nav {
+    padding: 0.4em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    padding-inline: 25px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0f160e;
+    font-size: large;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    background-color: #425d33;
+    border-radius: 2px;
+    transition: 1s;
+    padding-inline: 18px;
+}
+
+nav ul li span {
+    padding-right: 120vh ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #0f160e;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+
+footer {
+    padding: 0.4em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    padding-inline: 25px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #0f160e;
+    font-size: large;
+    transition: 1s;
+}
+
+footer ul li a:hover {
+    background-color: #425d33;
+    border-radius: 2px;
+    transition: 1s;
+    padding-inline: 18px;
+}
+
