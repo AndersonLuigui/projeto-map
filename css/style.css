@@ -32,15 +32,36 @@
     cursor:pointer; 
 }
 
+
+
 .container {
     text-align: center;
     padding: 1rem;
 }
 
+:root {
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color: #222;
+    --link-color-hover: #425d33;
+}
+
+#dark:root {
+    --body-bg: #212529;
+    --body-color: #899095;
+    --link-color: #dee2e6;
+    --link-color-hover: #3cc368;
+}
+
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
     color: #0f160e;
+}
+
+#tela {
+    display: none;
 }
 
 .regioes {
